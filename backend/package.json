@@ -1,0 +1,33 @@
+{
+  "name": "faq-api",
+  "version": "0.0.1",
+  "description": "portal faq api integration",
+  "main": "src/index",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aJlino82/mongo-api-rest.git"
+  },
+  "keywords": [
+    "adailton",
+    "sms",
+    "portal",
+    "faq"
+  ],
+  "author": "Adailton Lino F Junior",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aJlino82/mongo-api-rest/issues"
+  },
+  "homepage": "https://github.com/aJlino82/mongo-api-rest#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "mongoose": "^6.6.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

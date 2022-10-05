@@ -1,0 +1,17 @@
+{
+  "name": "front-faq",
+  "version": "0.0.1",
+  "description": "front end",
+  "main": "index.js",
+  "scripts": {
+    "test": "teste"
+  },
+  "keywords": [
+    "Adailton",
+    "sms",
+    "faq",
+    "front"
+  ],
+  "author": "adailton",
+  "license": "ISC"
+}
