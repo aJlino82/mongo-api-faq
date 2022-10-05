@@ -4,7 +4,8 @@
   "description": "front end",
   "main": "index.js",
   "scripts": {
-    "test": "teste"
+    "test": "teste",
+    "start": "nodemon ./src/index"
   },
   "keywords": [
     "Adailton",
@@ -15,6 +16,12 @@
   "author": "adailton",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.1"
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "request": "^2.88.2",
+    "request-promise-native": "^1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
   }
 }
